@@ -17,13 +17,13 @@
 
       exports = ___CSS_LOADER_API_IMPORT___(true); // Module
 
-      exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nhtml, body {\n    min-height: 100vh;\n    height: auto;\n    margin: 0;\n  }", "", {
+      exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nhtml, body { \n    height: 100%;\n}\nbody { \n    margin: 0;\n    font-family: Roboto, \"Helvetica Neue\", sans-serif;\n}", "", {
         "version": 3,
         "sources": ["styles.css"],
         "names": [],
-        "mappings": "AAAA,8EAA8E;AAC9E;IACI,iBAAiB;IACjB,YAAY;IACZ,SAAS;EACX",
+        "mappings": "AAAA,8EAA8E;AAC9E;IACI,YAAY;AAChB;AACA;IACI,SAAS;IACT,iDAAiD;AACrD",
         "file": "styles.css",
-        "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\nhtml, body {\n    min-height: 100vh;\n    height: auto;\n    margin: 0;\n  }"]
+        "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\nhtml, body { \n    height: 100%;\n}\nbody { \n    margin: 0;\n    font-family: Roboto, \"Helvetica Neue\", sans-serif;\n}"]
       }]); // Exports
 
       module.exports = exports;

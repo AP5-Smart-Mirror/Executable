@@ -68,9 +68,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _widgets_date_date_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./widgets/date/date.component */ "./src/app/widgets/date/date.component.ts");
-/* harmony import */ var _widgets_analog_clock_analog_clock_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./widgets/analog-clock/analog-clock.component */ "./src/app/widgets/analog-clock/analog-clock.component.ts");
+/* harmony import */ var _widgets_weather_weather_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./widgets/weather/weather.component */ "./src/app/widgets/weather/weather.component.ts");
 /* harmony import */ var _widgets_digital_clock_digital_clock_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./widgets/digital-clock/digital-clock.component */ "./src/app/widgets/digital-clock/digital-clock.component.ts");
-/* harmony import */ var _widgets_meteo_meteo_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./widgets/meteo/meteo.component */ "./src/app/widgets/meteo/meteo.component.ts");
+/* harmony import */ var _widgets_analog_clock_analog_clock_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./widgets/analog-clock/analog-clock.component */ "./src/app/widgets/analog-clock/analog-clock.component.ts");
 
 
 
@@ -83,16 +83,14 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 6, vars: 0, consts: [[1, "content"], [1, "widgets"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 5, vars: 0, consts: [[1, "content"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-date");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "app-analog-clock");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-digital-clock");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "app-meteo");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-date");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-weather");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "app-digital-clock");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-analog-clock");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_widgets_date_date_component__WEBPACK_IMPORTED_MODULE_1__["DateComponent"], _widgets_analog_clock_analog_clock_component__WEBPACK_IMPORTED_MODULE_2__["AnalogClockComponent"], _widgets_digital_clock_digital_clock_component__WEBPACK_IMPORTED_MODULE_3__["DigitalClockComponent"], _widgets_meteo_meteo_component__WEBPACK_IMPORTED_MODULE_4__["MeteoComponent"]], styles: [".content[_ngcontent-%COMP%] {\n    height: 100vh;\n    background-color: black;\n}\n\n.widgets[_ngcontent-%COMP%] {\n    display: flex;\n    height: auto;\n    border: solid 1px white;\n}\n\napp-date[_ngcontent-%COMP%] {\n    border: dotted 1px red;\n}\n\napp-meteo[_ngcontent-%COMP%] {\n    border: dotted 1px green;\n}\n\napp-analog-clock[_ngcontent-%COMP%] {\n    border: dotted 1px blue;\n}\n\napp-digital-clock[_ngcontent-%COMP%] {\n    border: dotted 1px yellow;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsdUJBQXVCO0FBQzNCOztBQUVBO0lBQ0ksYUFBYTtJQUNiLFlBQVk7SUFDWix1QkFBdUI7QUFDM0I7O0FBRUE7SUFDSSxzQkFBc0I7QUFDMUI7O0FBRUE7SUFDSSx3QkFBd0I7QUFDNUI7O0FBRUE7SUFDSSx1QkFBdUI7QUFDM0I7O0FBRUE7SUFDSSx5QkFBeUI7QUFDN0IiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250ZW50IHtcbiAgICBoZWlnaHQ6IDEwMHZoO1xuICAgIGJhY2tncm91bmQtY29sb3I6IGJsYWNrO1xufVxuXG4ud2lkZ2V0cyB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBoZWlnaHQ6IGF1dG87XG4gICAgYm9yZGVyOiBzb2xpZCAxcHggd2hpdGU7XG59XG5cbmFwcC1kYXRlIHtcbiAgICBib3JkZXI6IGRvdHRlZCAxcHggcmVkO1xufVxuXG5hcHAtbWV0ZW8ge1xuICAgIGJvcmRlcjogZG90dGVkIDFweCBncmVlbjtcbn1cblxuYXBwLWFuYWxvZy1jbG9jayB7XG4gICAgYm9yZGVyOiBkb3R0ZWQgMXB4IGJsdWU7XG59XG5cbmFwcC1kaWdpdGFsLWNsb2NrIHtcbiAgICBib3JkZXI6IGRvdHRlZCAxcHggeWVsbG93O1xufSJdfQ== */"] });
+    } }, directives: [_widgets_date_date_component__WEBPACK_IMPORTED_MODULE_1__["DateComponent"], _widgets_weather_weather_component__WEBPACK_IMPORTED_MODULE_2__["WeatherComponent"], _widgets_digital_clock_digital_clock_component__WEBPACK_IMPORTED_MODULE_3__["DigitalClockComponent"], _widgets_analog_clock_analog_clock_component__WEBPACK_IMPORTED_MODULE_4__["AnalogClockComponent"]], styles: [".content[_ngcontent-%COMP%] {\n    height: 100vh;\n    background-color: black;\n    display: grid;\n    grid-template-columns: repeat(10,1fr);\n    grid-template-rows: repeat(6, 1fr);\n}\n\napp-date[_ngcontent-%COMP%] {\n    grid-column-start: 1;\n    grid-column-end: 5;\n    grid-row-start: 1;\n    grid-row-end: 2;\n    border: dotted 1px red;\n}\n\napp-weather[_ngcontent-%COMP%] {\n    grid-column-start: 1;\n    grid-column-end: 3;\n    grid-row-start: 2;\n    grid-row-end: 4;\n    border: dotted 1px green;\n}\n\napp-digital-clock[_ngcontent-%COMP%] {\n    grid-column-start: 5;\n    grid-column-end: 7;\n    grid-row-start: 1;\n    grid-row-end: 2;\n    border: dotted 1px yellow;\n}\n\napp-analog-clock[_ngcontent-%COMP%] {\n    height:100%;\n    width: 100%;\n    grid-column-start: 8;\n    grid-column-end: 10;\n    grid-row-start: 4;\n    grid-row-end: 6;\n    border: dotted 1px blue;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsdUJBQXVCO0lBQ3ZCLGFBQWE7SUFDYixxQ0FBcUM7SUFDckMsa0NBQWtDO0FBQ3RDOztBQUVBO0lBQ0ksb0JBQW9CO0lBQ3BCLGtCQUFrQjtJQUNsQixpQkFBaUI7SUFDakIsZUFBZTtJQUNmLHNCQUFzQjtBQUMxQjs7QUFFQTtJQUNJLG9CQUFvQjtJQUNwQixrQkFBa0I7SUFDbEIsaUJBQWlCO0lBQ2pCLGVBQWU7SUFDZix3QkFBd0I7QUFDNUI7O0FBRUE7SUFDSSxvQkFBb0I7SUFDcEIsa0JBQWtCO0lBQ2xCLGlCQUFpQjtJQUNqQixlQUFlO0lBQ2YseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0ksV0FBVztJQUNYLFdBQVc7SUFDWCxvQkFBb0I7SUFDcEIsbUJBQW1CO0lBQ25CLGlCQUFpQjtJQUNqQixlQUFlO0lBQ2YsdUJBQXVCO0FBQzNCIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGVudCB7XG4gICAgaGVpZ2h0OiAxMDB2aDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcbiAgICBkaXNwbGF5OiBncmlkO1xuICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KDEwLDFmcik7XG4gICAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiByZXBlYXQoNiwgMWZyKTtcbn1cblxuYXBwLWRhdGUge1xuICAgIGdyaWQtY29sdW1uLXN0YXJ0OiAxO1xuICAgIGdyaWQtY29sdW1uLWVuZDogNTtcbiAgICBncmlkLXJvdy1zdGFydDogMTtcbiAgICBncmlkLXJvdy1lbmQ6IDI7XG4gICAgYm9yZGVyOiBkb3R0ZWQgMXB4IHJlZDtcbn1cblxuYXBwLXdlYXRoZXIge1xuICAgIGdyaWQtY29sdW1uLXN0YXJ0OiAxO1xuICAgIGdyaWQtY29sdW1uLWVuZDogMztcbiAgICBncmlkLXJvdy1zdGFydDogMjtcbiAgICBncmlkLXJvdy1lbmQ6IDQ7XG4gICAgYm9yZGVyOiBkb3R0ZWQgMXB4IGdyZWVuO1xufVxuXG5hcHAtZGlnaXRhbC1jbG9jayB7XG4gICAgZ3JpZC1jb2x1bW4tc3RhcnQ6IDU7XG4gICAgZ3JpZC1jb2x1bW4tZW5kOiA3O1xuICAgIGdyaWQtcm93LXN0YXJ0OiAxO1xuICAgIGdyaWQtcm93LWVuZDogMjtcbiAgICBib3JkZXI6IGRvdHRlZCAxcHggeWVsbG93O1xufVxuXG5hcHAtYW5hbG9nLWNsb2NrIHtcbiAgICBoZWlnaHQ6MTAwJTtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBncmlkLWNvbHVtbi1zdGFydDogODtcbiAgICBncmlkLWNvbHVtbi1lbmQ6IDEwO1xuICAgIGdyaWQtcm93LXN0YXJ0OiA0O1xuICAgIGdyaWQtcm93LWVuZDogNjtcbiAgICBib3JkZXI6IGRvdHRlZCAxcHggYmx1ZTtcbn0iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -121,7 +119,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common_locales_fr__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_angular_common_locales_fr__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _widgets_meteo_meteo_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./widgets/meteo/meteo.component */ "./src/app/widgets/meteo/meteo.component.ts");
+/* harmony import */ var _widgets_weather_weather_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./widgets/weather/weather.component */ "./src/app/widgets/weather/weather.component.ts");
 /* harmony import */ var _widgets_date_date_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./widgets/date/date.component */ "./src/app/widgets/date/date.component.ts");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 /* harmony import */ var _widgets_analog_clock_analog_clock_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./widgets/analog-clock/analog-clock.component */ "./src/app/widgets/analog-clock/analog-clock.component.ts");
@@ -151,7 +149,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
             _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClientModule"]
         ]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
-        _widgets_meteo_meteo_component__WEBPACK_IMPORTED_MODULE_5__["MeteoComponent"],
+        _widgets_weather_weather_component__WEBPACK_IMPORTED_MODULE_5__["WeatherComponent"],
         _widgets_date_date_component__WEBPACK_IMPORTED_MODULE_6__["DateComponent"],
         _widgets_analog_clock_analog_clock_component__WEBPACK_IMPORTED_MODULE_8__["AnalogClockComponent"],
         _widgets_digital_clock_digital_clock_component__WEBPACK_IMPORTED_MODULE_10__["DigitalClockComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -162,7 +160,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         args: [{
                 declarations: [
                     _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
-                    _widgets_meteo_meteo_component__WEBPACK_IMPORTED_MODULE_5__["MeteoComponent"],
+                    _widgets_weather_weather_component__WEBPACK_IMPORTED_MODULE_5__["WeatherComponent"],
                     _widgets_date_date_component__WEBPACK_IMPORTED_MODULE_6__["DateComponent"],
                     _widgets_analog_clock_analog_clock_component__WEBPACK_IMPORTED_MODULE_8__["AnalogClockComponent"],
                     _widgets_digital_clock_digital_clock_component__WEBPACK_IMPORTED_MODULE_10__["DigitalClockComponent"],
@@ -328,17 +326,26 @@ WeatherService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineIn
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AnalogClockComponent", function() { return AnalogClockComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var src_app_services_clock_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/services/clock.service */ "./src/app/services/clock.service.ts");
+
 
 
 class AnalogClockComponent {
-    constructor() { }
+    constructor(clockService) {
+        this.clockService = clockService;
+        this.hour = 0;
+        this.minute = 0;
+        this.second = 0;
+    }
     ngOnInit() {
         this.drawClock();
     }
     drawClock() {
         let canvas = document.getElementById("clock");
+        let parent = document.getElementById("analogClock");
+        canvas.width = parent.offsetWidth;
+        canvas.height = parent.offsetHeight;
         let ctx = canvas.getContext("2d");
-        //ctx.clearRect(0,0, canvas.width, canvas.height);
         let radius = canvas.height / 2;
         ctx.translate(radius, radius);
         radius = radius * 0.90;
@@ -360,12 +367,13 @@ class AnalogClockComponent {
         ctx.arc(0, 0, radius, 0, 2 * Math.PI);
         ctx.fillStyle = 'black';
         ctx.fill();
-        grad = ctx.createRadialGradient(0, 0, radius * 0.95, 0, 0, radius * 1.05);
-        grad.addColorStop(0, 'black');
-        grad.addColorStop(0.5, 'white');
-        grad.addColorStop(1, 'black');
+        //Lines to create a gradient effect on the edge of th clock
+        //grad = ctx.createRadialGradient(0, 0 ,radius * 0.95, 0, 0, radius * 1.05);
+        //grad.addColorStop(0, 'black');
+        //grad.addColorStop(0.5, 'white');
+        //grad.addColorStop(1, 'black');
         ctx.strokeStyle = grad;
-        ctx.lineWidth = radius * 0.1;
+        ctx.lineWidth = radius * 0.04;
         ctx.stroke();
         ctx.beginPath();
         ctx.arc(0, 0, radius * 0.1, 0, 2 * Math.PI);
@@ -391,20 +399,24 @@ class AnalogClockComponent {
         }
     }
     drawTime(ctx, radius) {
-        let now = new Date();
-        let hour = now.getHours();
-        let minute = now.getMinutes();
-        let second = now.getSeconds();
+        this.initClock();
         //hour
-        hour = hour % 12;
-        hour = (hour * Math.PI / 6) + (minute * Math.PI / (6 * 60)) + (second * Math.PI / (360 * 60));
-        this.drawHand(ctx, hour, radius * 0.5, radius * 0.07);
+        this.hour = this.hour % 12;
+        this.hour = (this.hour * Math.PI / 6) + (this.minute * Math.PI / (6 * 60)) + (this.second * Math.PI / (360 * 60));
+        this.drawHand(ctx, this.hour, radius * 0.5, radius * 0.07);
         //minute
-        minute = (minute * Math.PI / 30) + (second * Math.PI / (30 * 60));
-        this.drawHand(ctx, minute, radius * 0.8, radius * 0.07);
+        this.minute = (this.minute * Math.PI / 30) + (this.second * Math.PI / (30 * 60));
+        this.drawHand(ctx, this.minute, radius * 0.8, radius * 0.07);
         // second
-        second = (second * Math.PI / 30);
-        this.drawHand(ctx, second, radius * 0.9, radius * 0.02);
+        this.second = (this.second * Math.PI / 30);
+        this.drawHand(ctx, this.second, radius * 0.9, radius * 0.02);
+    }
+    initClock() {
+        this.clockService.getClock().subscribe(res => {
+            this.hour = res.hours;
+            this.minute = res.minutes;
+            this.second = res.seconds;
+        }, () => console.log('HTTP request completed.'));
     }
     drawHand(ctx, pos, length, width) {
         ctx.beginPath();
@@ -418,12 +430,12 @@ class AnalogClockComponent {
         ctx.rotate(-pos);
     }
 }
-AnalogClockComponent.ɵfac = function AnalogClockComponent_Factory(t) { return new (t || AnalogClockComponent)(); };
-AnalogClockComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AnalogClockComponent, selectors: [["app-analog-clock"]], decls: 2, vars: 0, consts: [[1, "analogClock"], ["id", "clock", "width", "400", "height", "400", 2, "background-color", "black"]], template: function AnalogClockComponent_Template(rf, ctx) { if (rf & 1) {
+AnalogClockComponent.ɵfac = function AnalogClockComponent_Factory(t) { return new (t || AnalogClockComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_services_clock_service__WEBPACK_IMPORTED_MODULE_1__["ClockService"])); };
+AnalogClockComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AnalogClockComponent, selectors: [["app-analog-clock"]], decls: 2, vars: 0, consts: [["id", "analogClock"], ["id", "clock", 2, "background-color", "black"]], template: function AnalogClockComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "canvas", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3dpZGdldHMvYW5hbG9nLWNsb2NrL2FuYWxvZy1jbG9jay5jb21wb25lbnQuY3NzIn0= */"] });
+    } }, styles: ["#analogClock[_ngcontent-%COMP%]{\n    height:100%;\n    width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2lkZ2V0cy9hbmFsb2ctY2xvY2svYW5hbG9nLWNsb2NrLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvd2lkZ2V0cy9hbmFsb2ctY2xvY2svYW5hbG9nLWNsb2NrLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjYW5hbG9nQ2xvY2t7XG4gICAgaGVpZ2h0OjEwMCU7XG4gICAgd2lkdGg6IDEwMCU7XG59Il19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AnalogClockComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -431,7 +443,7 @@ AnalogClockComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
                 templateUrl: './analog-clock.component.html',
                 styleUrls: ['./analog-clock.component.css']
             }]
-    }], function () { return []; }, null); })();
+    }], function () { return [{ type: src_app_services_clock_service__WEBPACK_IMPORTED_MODULE_1__["ClockService"] }]; }, null); })();
 
 
 /***/ }),
@@ -450,6 +462,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _models_clock__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../models/clock */ "./src/app/models/clock.ts");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
 /* harmony import */ var _services_clock_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/clock.service */ "./src/app/services/clock.service.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+
 
 
 
@@ -474,16 +488,18 @@ class DateComponent {
     }
 }
 DateComponent.ɵfac = function DateComponent_Factory(t) { return new (t || DateComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_clock_service__WEBPACK_IMPORTED_MODULE_3__["ClockService"])); };
-DateComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DateComponent, selectors: [["app-date"]], decls: 3, vars: 4, consts: [[1, "content"]], template: function DateComponent_Template(rf, ctx) { if (rf & 1) {
+DateComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DateComponent, selectors: [["app-date"]], decls: 5, vars: 8, consts: [[1, "content"]], template: function DateComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](3, "titlecase");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](4, "titlecase");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate4"]("", ctx.clock.dayname, " ", ctx.clock.day, " ", ctx.clock.monthname, " ", ctx.clock.year, "");
-    } }, styles: [".content[_ngcontent-%COMP%] {\n    color: white;\n    padding: 5px;\n    margin: 5px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    align-items: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2lkZ2V0cy9kYXRlL2RhdGUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixZQUFZO0lBQ1osV0FBVztJQUNYLGFBQWE7SUFDYixzQkFBc0I7SUFDdEIsNkJBQTZCO0lBQzdCLG1CQUFtQjtBQUN2QiIsImZpbGUiOiJzcmMvYXBwL3dpZGdldHMvZGF0ZS9kYXRlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGVudCB7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIHBhZGRpbmc6IDVweDtcbiAgICBtYXJnaW46IDVweDtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1hcm91bmQ7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn0iXX0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate4"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 4, ctx.clock.dayname), " ", ctx.clock.day, " ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](4, 6, ctx.clock.monthname), " ", ctx.clock.year, "");
+    } }, pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["TitleCasePipe"]], styles: [".content[_ngcontent-%COMP%] {\n    color: white;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    align-items: center;\n    height:100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2lkZ2V0cy9kYXRlL2RhdGUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixhQUFhO0lBQ2Isc0JBQXNCO0lBQ3RCLDZCQUE2QjtJQUM3QixtQkFBbUI7SUFDbkIsV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvd2lkZ2V0cy9kYXRlL2RhdGUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250ZW50IHtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYXJvdW5kO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgaGVpZ2h0OjEwMCU7XG59Il19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](DateComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -554,7 +570,7 @@ class DigitalClockComponent {
 DigitalClockComponent.ɵfac = function DigitalClockComponent_Factory(t) { return new (t || DigitalClockComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_services_clock_service__WEBPACK_IMPORTED_MODULE_2__["ClockService"])); };
 DigitalClockComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DigitalClockComponent, selectors: [["app-digital-clock"]], decls: 8, vars: 6, consts: [[1, "content"], [4, "ngIf"]], template: function DigitalClockComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, DigitalClockComponent_span_2_Template, 2, 0, "span", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, DigitalClockComponent_span_4_Template, 2, 0, "span", 1);
@@ -576,7 +592,7 @@ DigitalClockComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵde
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.clock.seconds < 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.clock.seconds);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]], styles: [".content[_ngcontent-%COMP%] {\n    color: white;\n    padding: 5px;\n    margin: 5px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    align-items: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2lkZ2V0cy9kaWdpdGFsLWNsb2NrL2RpZ2l0YWwtY2xvY2suY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixZQUFZO0lBQ1osV0FBVztJQUNYLGFBQWE7SUFDYixzQkFBc0I7SUFDdEIsNkJBQTZCO0lBQzdCLG1CQUFtQjtBQUN2QiIsImZpbGUiOiJzcmMvYXBwL3dpZGdldHMvZGlnaXRhbC1jbG9jay9kaWdpdGFsLWNsb2NrLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGVudCB7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIHBhZGRpbmc6IDVweDtcbiAgICBtYXJnaW46IDVweDtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1hcm91bmQ7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn0iXX0= */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]], styles: [".content[_ngcontent-%COMP%] {\n    color: white;\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n    height:100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2lkZ2V0cy9kaWdpdGFsLWNsb2NrL2RpZ2l0YWwtY2xvY2suY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixhQUFhO0lBQ2IsNkJBQTZCO0lBQzdCLG1CQUFtQjtJQUNuQixXQUFXO0FBQ2YiLCJmaWxlIjoic3JjL2FwcC93aWRnZXRzL2RpZ2l0YWwtY2xvY2svZGlnaXRhbC1jbG9jay5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNvbnRlbnQge1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYXJvdW5kO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgaGVpZ2h0OjEwMCU7XG59Il19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](DigitalClockComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -589,16 +605,16 @@ DigitalClockComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵde
 
 /***/ }),
 
-/***/ "./src/app/widgets/meteo/meteo.component.ts":
-/*!**************************************************!*\
-  !*** ./src/app/widgets/meteo/meteo.component.ts ***!
-  \**************************************************/
-/*! exports provided: MeteoComponent */
+/***/ "./src/app/widgets/weather/weather.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/widgets/weather/weather.component.ts ***!
+  \******************************************************/
+/*! exports provided: WeatherComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MeteoComponent", function() { return MeteoComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WeatherComponent", function() { return WeatherComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
 /* harmony import */ var src_app_models_weather__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/models/weather */ "./src/app/models/weather.ts");
@@ -610,7 +626,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-class MeteoComponent {
+class WeatherComponent {
     constructor(weatherService) {
         this.weatherService = weatherService;
     }
@@ -627,8 +643,8 @@ class MeteoComponent {
         })).subscribe();
     }
 }
-MeteoComponent.ɵfac = function MeteoComponent_Factory(t) { return new (t || MeteoComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_weather_service__WEBPACK_IMPORTED_MODULE_3__["WeatherService"])); };
-MeteoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MeteoComponent, selectors: [["app-meteo"]], decls: 8, vars: 6, consts: [[1, "content"], [1, "horizontal"], ["alt", "icone meteo actuelle", 3, "src"]], template: function MeteoComponent_Template(rf, ctx) { if (rf & 1) {
+WeatherComponent.ɵfac = function WeatherComponent_Factory(t) { return new (t || WeatherComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_weather_service__WEBPACK_IMPORTED_MODULE_3__["WeatherService"])); };
+WeatherComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WeatherComponent, selectors: [["app-weather"]], decls: 8, vars: 6, consts: [[1, "content"], [1, "horizontal"], ["alt", "icone meteo actuelle", 3, "src"]], template: function WeatherComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1");
@@ -648,13 +664,13 @@ MeteoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", ctx.weather.iconurl, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.weather.city);
-    } }, pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["DecimalPipe"]], styles: [".content[_ngcontent-%COMP%] {\n    color: white;\n    padding: 5px;\n    margin: 5px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    align-items: center;\n}\n\n.horizontal[_ngcontent-%COMP%] {\n    display: inline-flex;\n    justify-content: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2lkZ2V0cy9tZXRlby9tZXRlby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLFlBQVk7SUFDWixXQUFXO0lBQ1gsYUFBYTtJQUNiLHNCQUFzQjtJQUN0Qiw2QkFBNkI7SUFDN0IsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksb0JBQW9CO0lBQ3BCLHVCQUF1QjtBQUMzQiIsImZpbGUiOiJzcmMvYXBwL3dpZGdldHMvbWV0ZW8vbWV0ZW8uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250ZW50IHtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgcGFkZGluZzogNXB4O1xuICAgIG1hcmdpbjogNXB4O1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZDtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuXG4uaG9yaXpvbnRhbCB7XG4gICAgZGlzcGxheTogaW5saW5lLWZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59Il19 */"] });
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](MeteoComponent, [{
+    } }, pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["DecimalPipe"]], styles: [".content[_ngcontent-%COMP%] {\n    color: white;\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n    height:100%;\n}\n\n.horizontal[_ngcontent-%COMP%] {\n    display: inline-flex;\n    justify-content: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2lkZ2V0cy93ZWF0aGVyL3dlYXRoZXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixhQUFhO0lBQ2IsNkJBQTZCO0lBQzdCLG1CQUFtQjtJQUNuQixXQUFXO0FBQ2Y7O0FBRUE7SUFDSSxvQkFBb0I7SUFDcEIsdUJBQXVCO0FBQzNCIiwiZmlsZSI6InNyYy9hcHAvd2lkZ2V0cy93ZWF0aGVyL3dlYXRoZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250ZW50IHtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZDtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIGhlaWdodDoxMDAlO1xufVxuXG4uaG9yaXpvbnRhbCB7XG4gICAgZGlzcGxheTogaW5saW5lLWZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59Il19 */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](WeatherComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
-                selector: 'app-meteo',
-                templateUrl: './meteo.component.html',
-                styleUrls: ['./meteo.component.css']
+                selector: 'app-weather',
+                templateUrl: './weather.component.html',
+                styleUrls: ['./weather.component.css']
             }]
     }], function () { return [{ type: _services_weather_service__WEBPACK_IMPORTED_MODULE_3__["WeatherService"] }]; }, null); })();
 
