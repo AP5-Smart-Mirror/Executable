@@ -188,7 +188,7 @@
           }
         },
         directives: [_widgets_date_date_component__WEBPACK_IMPORTED_MODULE_1__["DateComponent"], _widgets_weather_weather_component__WEBPACK_IMPORTED_MODULE_2__["WeatherComponent"], _widgets_digital_clock_digital_clock_component__WEBPACK_IMPORTED_MODULE_3__["DigitalClockComponent"], _widgets_analog_clock_analog_clock_component__WEBPACK_IMPORTED_MODULE_4__["AnalogClockComponent"]],
-        styles: [".content[_ngcontent-%COMP%] {\n    height: 100vh;\n    background-color: black;\n    display: grid;\n    grid-template-columns: repeat(10,1fr);\n    grid-template-rows: repeat(6, 1fr);\n}\n\napp-date[_ngcontent-%COMP%] {\n    grid-column-start: 1;\n    grid-column-end: 5;\n    grid-row-start: 1;\n    grid-row-end: 2;\n    border: dotted 1px red;\n}\n\napp-weather[_ngcontent-%COMP%] {\n    grid-column-start: 1;\n    grid-column-end: 3;\n    grid-row-start: 2;\n    grid-row-end: 4;\n    border: dotted 1px green;\n}\n\napp-digital-clock[_ngcontent-%COMP%] {\n    grid-column-start: 5;\n    grid-column-end: 7;\n    grid-row-start: 1;\n    grid-row-end: 2;\n    border: dotted 1px yellow;\n}\n\napp-analog-clock[_ngcontent-%COMP%] {\n    height:100%;\n    width: 100%;\n    grid-column-start: 8;\n    grid-column-end: 10;\n    grid-row-start: 4;\n    grid-row-end: 6;\n    border: dotted 1px blue;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsdUJBQXVCO0lBQ3ZCLGFBQWE7SUFDYixxQ0FBcUM7SUFDckMsa0NBQWtDO0FBQ3RDOztBQUVBO0lBQ0ksb0JBQW9CO0lBQ3BCLGtCQUFrQjtJQUNsQixpQkFBaUI7SUFDakIsZUFBZTtJQUNmLHNCQUFzQjtBQUMxQjs7QUFFQTtJQUNJLG9CQUFvQjtJQUNwQixrQkFBa0I7SUFDbEIsaUJBQWlCO0lBQ2pCLGVBQWU7SUFDZix3QkFBd0I7QUFDNUI7O0FBRUE7SUFDSSxvQkFBb0I7SUFDcEIsa0JBQWtCO0lBQ2xCLGlCQUFpQjtJQUNqQixlQUFlO0lBQ2YseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0ksV0FBVztJQUNYLFdBQVc7SUFDWCxvQkFBb0I7SUFDcEIsbUJBQW1CO0lBQ25CLGlCQUFpQjtJQUNqQixlQUFlO0lBQ2YsdUJBQXVCO0FBQzNCIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGVudCB7XG4gICAgaGVpZ2h0OiAxMDB2aDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcbiAgICBkaXNwbGF5OiBncmlkO1xuICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KDEwLDFmcik7XG4gICAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiByZXBlYXQoNiwgMWZyKTtcbn1cblxuYXBwLWRhdGUge1xuICAgIGdyaWQtY29sdW1uLXN0YXJ0OiAxO1xuICAgIGdyaWQtY29sdW1uLWVuZDogNTtcbiAgICBncmlkLXJvdy1zdGFydDogMTtcbiAgICBncmlkLXJvdy1lbmQ6IDI7XG4gICAgYm9yZGVyOiBkb3R0ZWQgMXB4IHJlZDtcbn1cblxuYXBwLXdlYXRoZXIge1xuICAgIGdyaWQtY29sdW1uLXN0YXJ0OiAxO1xuICAgIGdyaWQtY29sdW1uLWVuZDogMztcbiAgICBncmlkLXJvdy1zdGFydDogMjtcbiAgICBncmlkLXJvdy1lbmQ6IDQ7XG4gICAgYm9yZGVyOiBkb3R0ZWQgMXB4IGdyZWVuO1xufVxuXG5hcHAtZGlnaXRhbC1jbG9jayB7XG4gICAgZ3JpZC1jb2x1bW4tc3RhcnQ6IDU7XG4gICAgZ3JpZC1jb2x1bW4tZW5kOiA3O1xuICAgIGdyaWQtcm93LXN0YXJ0OiAxO1xuICAgIGdyaWQtcm93LWVuZDogMjtcbiAgICBib3JkZXI6IGRvdHRlZCAxcHggeWVsbG93O1xufVxuXG5hcHAtYW5hbG9nLWNsb2NrIHtcbiAgICBoZWlnaHQ6MTAwJTtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBncmlkLWNvbHVtbi1zdGFydDogODtcbiAgICBncmlkLWNvbHVtbi1lbmQ6IDEwO1xuICAgIGdyaWQtcm93LXN0YXJ0OiA0O1xuICAgIGdyaWQtcm93LWVuZDogNjtcbiAgICBib3JkZXI6IGRvdHRlZCAxcHggYmx1ZTtcbn0iXX0= */"]
+        styles: [".content[_ngcontent-%COMP%] {\n    height: 100vh;\n    background-color: black;\n    display: grid;\n    grid-template-columns: repeat(10,1fr);\n    grid-template-rows: repeat(6, 1fr);\n}\n\napp-date[_ngcontent-%COMP%] {\n    grid-column-start: 1;\n    grid-column-end: 5;\n    grid-row-start: 1;\n    grid-row-end: 2;\n    \n}\n\napp-weather[_ngcontent-%COMP%] {\n    grid-column-start: 1;\n    grid-column-end: 3;\n    grid-row-start: 5;\n    grid-row-end: 7;\n    \n}\n\napp-digital-clock[_ngcontent-%COMP%] {\n    grid-column-start: 9;\n    grid-column-end: 11;\n    grid-row-start: 1;\n    grid-row-end: 2;\n    \n}\n\napp-analog-clock[_ngcontent-%COMP%] {\n    grid-column-start: 9;\n    grid-column-end: 11;\n    grid-row-start: 5;\n    grid-row-end: 7;\n    \n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsdUJBQXVCO0lBQ3ZCLGFBQWE7SUFDYixxQ0FBcUM7SUFDckMsa0NBQWtDO0FBQ3RDOztBQUVBO0lBQ0ksb0JBQW9CO0lBQ3BCLGtCQUFrQjtJQUNsQixpQkFBaUI7SUFDakIsZUFBZTtJQUNmLDBCQUEwQjtBQUM5Qjs7QUFFQTtJQUNJLG9CQUFvQjtJQUNwQixrQkFBa0I7SUFDbEIsaUJBQWlCO0lBQ2pCLGVBQWU7SUFDZiw0QkFBNEI7QUFDaEM7O0FBRUE7SUFDSSxvQkFBb0I7SUFDcEIsbUJBQW1CO0lBQ25CLGlCQUFpQjtJQUNqQixlQUFlO0lBQ2YsNkJBQTZCO0FBQ2pDOztBQUVBO0lBQ0ksb0JBQW9CO0lBQ3BCLG1CQUFtQjtJQUNuQixpQkFBaUI7SUFDakIsZUFBZTtJQUNmLDJCQUEyQjtBQUMvQiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNvbnRlbnQge1xuICAgIGhlaWdodDogMTAwdmg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XG4gICAgZGlzcGxheTogZ3JpZDtcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCgxMCwxZnIpO1xuICAgIGdyaWQtdGVtcGxhdGUtcm93czogcmVwZWF0KDYsIDFmcik7XG59XG5cbmFwcC1kYXRlIHtcbiAgICBncmlkLWNvbHVtbi1zdGFydDogMTtcbiAgICBncmlkLWNvbHVtbi1lbmQ6IDU7XG4gICAgZ3JpZC1yb3ctc3RhcnQ6IDE7XG4gICAgZ3JpZC1yb3ctZW5kOiAyO1xuICAgIC8qYm9yZGVyOiBkb3R0ZWQgMXB4IHJlZDsqL1xufVxuXG5hcHAtd2VhdGhlciB7XG4gICAgZ3JpZC1jb2x1bW4tc3RhcnQ6IDE7XG4gICAgZ3JpZC1jb2x1bW4tZW5kOiAzO1xuICAgIGdyaWQtcm93LXN0YXJ0OiA1O1xuICAgIGdyaWQtcm93LWVuZDogNztcbiAgICAvKmJvcmRlcjogZG90dGVkIDFweCBncmVlbjsqL1xufVxuXG5hcHAtZGlnaXRhbC1jbG9jayB7XG4gICAgZ3JpZC1jb2x1bW4tc3RhcnQ6IDk7XG4gICAgZ3JpZC1jb2x1bW4tZW5kOiAxMTtcbiAgICBncmlkLXJvdy1zdGFydDogMTtcbiAgICBncmlkLXJvdy1lbmQ6IDI7XG4gICAgLypib3JkZXI6IGRvdHRlZCAxcHggeWVsbG93OyovXG59XG5cbmFwcC1hbmFsb2ctY2xvY2sge1xuICAgIGdyaWQtY29sdW1uLXN0YXJ0OiA5O1xuICAgIGdyaWQtY29sdW1uLWVuZDogMTE7XG4gICAgZ3JpZC1yb3ctc3RhcnQ6IDU7XG4gICAgZ3JpZC1yb3ctZW5kOiA3O1xuICAgIC8qYm9yZGVyOiBkb3R0ZWQgMXB4IGJsdWU7Ki9cbn0iXX0= */"]
       });
       /*@__PURE__*/
 
@@ -295,6 +295,12 @@
       var _widgets_digital_clock_digital_clock_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
       /*! ./widgets/digital-clock/digital-clock.component */
       "./src/app/widgets/digital-clock/digital-clock.component.ts");
+      /* harmony import */
+
+
+      var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+      /*! @angular/material/progress-spinner */
+      "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/progress-spinner.js");
 
       Object(_angular_common__WEBPACK_IMPORTED_MODULE_7__["registerLocaleData"])(_angular_common_locales_fr__WEBPACK_IMPORTED_MODULE_2___default.a);
 
@@ -314,13 +320,13 @@
           provide: _angular_core__WEBPACK_IMPORTED_MODULE_1__["LOCALE_ID"],
           useValue: "fr-FR"
         }],
-        imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClientModule"]]]
+        imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClientModule"], _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_11__["MatProgressSpinnerModule"]]]
       });
 
       (function () {
         (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, {
           declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _widgets_weather_weather_component__WEBPACK_IMPORTED_MODULE_5__["WeatherComponent"], _widgets_date_date_component__WEBPACK_IMPORTED_MODULE_6__["DateComponent"], _widgets_analog_clock_analog_clock_component__WEBPACK_IMPORTED_MODULE_8__["AnalogClockComponent"], _widgets_digital_clock_digital_clock_component__WEBPACK_IMPORTED_MODULE_10__["DigitalClockComponent"]],
-          imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClientModule"]]
+          imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClientModule"], _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_11__["MatProgressSpinnerModule"]]
         });
       })();
       /*@__PURE__*/
@@ -331,7 +337,7 @@
           type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
           args: [{
             declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _widgets_weather_weather_component__WEBPACK_IMPORTED_MODULE_5__["WeatherComponent"], _widgets_date_date_component__WEBPACK_IMPORTED_MODULE_6__["DateComponent"], _widgets_analog_clock_analog_clock_component__WEBPACK_IMPORTED_MODULE_8__["AnalogClockComponent"], _widgets_digital_clock_digital_clock_component__WEBPACK_IMPORTED_MODULE_10__["DigitalClockComponent"]],
-            imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClientModule"]],
+            imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_9__["HttpClientModule"], _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_11__["MatProgressSpinnerModule"]],
             providers: [{
               provide: _angular_core__WEBPACK_IMPORTED_MODULE_1__["LOCALE_ID"],
               useValue: "fr-FR"
@@ -340,33 +346,6 @@
           }]
         }], null, null);
       })();
-      /***/
-
-    },
-
-    /***/
-    "./src/app/models/clock.ts":
-    /*!*********************************!*\
-      !*** ./src/app/models/clock.ts ***!
-      \*********************************/
-
-    /*! exports provided: Clock */
-
-    /***/
-    function srcAppModelsClockTs(module, __webpack_exports__, __webpack_require__) {
-      "use strict";
-
-      __webpack_require__.r(__webpack_exports__);
-      /* harmony export (binding) */
-
-
-      __webpack_require__.d(__webpack_exports__, "Clock", function () {
-        return Clock;
-      });
-
-      var Clock = function Clock() {
-        _classCallCheck(this, Clock);
-      };
       /***/
 
     },
@@ -528,19 +507,13 @@
       /* harmony import */
 
 
-      var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! rxjs */
-      "./node_modules/rxjs/_esm2015/index.js");
-      /* harmony import */
-
-
-      var _environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! ../../environments/environment */
       "./src/environments/environment.ts");
       /* harmony import */
 
 
-      var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/common/http */
       "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
 
@@ -549,7 +522,7 @@
           _classCallCheck(this, WeatherService);
 
           this.httpClient = httpClient;
-          this.url = _environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].server_base_url;
+          this.url = _environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].server_base_url;
         }
 
         _createClass(WeatherService, [{
@@ -557,20 +530,11 @@
           value: function getWeather() {
             var _this2 = this;
 
-            return new rxjs__WEBPACK_IMPORTED_MODULE_1__["Observable"](function (observer) {
-              _this2.httpClient.get(_this2.url + '/weather', {
-                observe: 'response'
-              }).subscribe(function (page) {
-                observer.next(page.body);
-              }, function (error) {
-                if (error.status === 404) {
-                  observer.next(null);
-                } else {
-                  observer.error(error);
-                  console.error('Get Weather Error : ' + error.error.error);
-                }
-              }, function () {
-                observer.complete();
+            return new Promise(function (resolve, reject) {
+              _this2.httpClient.get(_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].server_base_url + '/weather').toPromise().then(function (res) {
+                resolve(res);
+              }, function (msg) {
+                reject(msg);
               });
             });
           }
@@ -580,7 +544,7 @@
       }();
 
       WeatherService.ɵfac = function WeatherService_Factory(t) {
-        return new (t || WeatherService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"]));
+        return new (t || WeatherService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]));
       };
 
       WeatherService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
@@ -598,7 +562,7 @@
           }]
         }], function () {
           return [{
-            type: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"]
+            type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]
           }];
         }, null);
       })();
@@ -643,9 +607,6 @@
           _classCallCheck(this, AnalogClockComponent);
 
           this.clockService = clockService;
-          this.hour = 0;
-          this.minute = 0;
-          this.second = 0;
         }
 
         _createClass(AnalogClockComponent, [{
@@ -659,7 +620,7 @@
             var _this3 = this;
 
             var canvas = document.getElementById("clock");
-            var parent = document.getElementById("analogClock");
+            var parent = document.getElementById("analog-clock");
             canvas.width = parent.offsetWidth;
             canvas.height = parent.offsetHeight;
             var ctx = canvas.getContext("2d");
@@ -741,15 +702,10 @@
         }, {
           key: "initClock",
           value: function initClock() {
-            var _this4 = this;
-
-            this.clockService.getClock().subscribe(function (res) {
-              _this4.hour = res.hours;
-              _this4.minute = res.minutes;
-              _this4.second = res.seconds;
-            }, function () {
-              return console.log('HTTP request completed.');
-            });
+            this.date = new Date();
+            this.hour = this.date.getHours();
+            this.minute = this.date.getMinutes();
+            this.second = this.date.getSeconds();
           }
         }, {
           key: "drawHand",
@@ -778,7 +734,7 @@
         selectors: [["app-analog-clock"]],
         decls: 2,
         vars: 0,
-        consts: [["id", "analogClock"], ["id", "clock", 2, "background-color", "black"]],
+        consts: [["id", "analog-clock"], ["id", "clock", 2, "background-color", "black"]],
         template: function AnalogClockComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
@@ -788,7 +744,7 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
           }
         },
-        styles: ["#analogClock[_ngcontent-%COMP%]{\n    height:100%;\n    width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2lkZ2V0cy9hbmFsb2ctY2xvY2svYW5hbG9nLWNsb2NrLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvd2lkZ2V0cy9hbmFsb2ctY2xvY2svYW5hbG9nLWNsb2NrLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjYW5hbG9nQ2xvY2t7XG4gICAgaGVpZ2h0OjEwMCU7XG4gICAgd2lkdGg6IDEwMCU7XG59Il19 */"]
+        styles: ["#analog-clock[_ngcontent-%COMP%] {\n    height:100%;\n    width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2lkZ2V0cy9hbmFsb2ctY2xvY2svYW5hbG9nLWNsb2NrLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvd2lkZ2V0cy9hbmFsb2ctY2xvY2svYW5hbG9nLWNsb2NrLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjYW5hbG9nLWNsb2NrIHtcbiAgICBoZWlnaHQ6MTAwJTtcbiAgICB3aWR0aDogMTAwJTtcbn0iXX0= */"]
       });
       /*@__PURE__*/
 
@@ -838,57 +794,24 @@
       /* harmony import */
 
 
-      var _models_clock__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! ../../models/clock */
-      "./src/app/models/clock.ts");
-      /* harmony import */
-
-
-      var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-      /*! rxjs/operators */
-      "./node_modules/rxjs/_esm2015/operators/index.js");
-      /* harmony import */
-
-
-      var _services_clock_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-      /*! ../../services/clock.service */
-      "./src/app/services/clock.service.ts");
-      /* harmony import */
-
-
-      var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! @angular/common */
       "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
       var DateComponent = /*#__PURE__*/function () {
-        function DateComponent(clockService) {
+        function DateComponent() {
           _classCallCheck(this, DateComponent);
-
-          this.clockService = clockService;
         }
 
         _createClass(DateComponent, [{
           key: "ngOnInit",
           value: function ngOnInit() {
-            var _this5 = this;
+            var _this4 = this;
 
-            this.clock = new _models_clock__WEBPACK_IMPORTED_MODULE_1__["Clock"]();
-            this.init();
+            this.date = Date.now();
             setInterval(function () {
-              return _this5.init();
+              return _this4.date = Date.now();
             }, 5000);
-          }
-        }, {
-          key: "init",
-          value: function init() {
-            var _this6 = this;
-
-            this.clockService.getClock().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (clock) {
-              _this6.clock.dayname = clock.dayname;
-              _this6.clock.day = clock.day;
-              _this6.clock.monthname = clock.monthname;
-              _this6.clock.year = clock.year;
-            })).subscribe();
           }
         }]);
 
@@ -896,14 +819,14 @@
       }();
 
       DateComponent.ɵfac = function DateComponent_Factory(t) {
-        return new (t || DateComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_clock_service__WEBPACK_IMPORTED_MODULE_3__["ClockService"]));
+        return new (t || DateComponent)();
       };
 
       DateComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: DateComponent,
         selectors: [["app-date"]],
         decls: 5,
-        vars: 8,
+        vars: 6,
         consts: [[1, "content"]],
         template: function DateComponent_Template(rf, ctx) {
           if (rf & 1) {
@@ -915,7 +838,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](3, "titlecase");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](4, "titlecase");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](4, "date");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -925,10 +848,10 @@
           if (rf & 2) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate4"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 4, ctx.clock.dayname), " ", ctx.clock.day, " ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](4, 6, ctx.clock.monthname), " ", ctx.clock.year, "");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](3, 1, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](4, 3, ctx.date, "EEEE d LLLL yyyy")));
           }
         },
-        pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["TitleCasePipe"]],
+        pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["TitleCasePipe"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["DatePipe"]],
         styles: [".content[_ngcontent-%COMP%] {\n    color: white;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    align-items: center;\n    height:100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2lkZ2V0cy9kYXRlL2RhdGUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixhQUFhO0lBQ2Isc0JBQXNCO0lBQ3RCLDZCQUE2QjtJQUM3QixtQkFBbUI7SUFDbkIsV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvd2lkZ2V0cy9kYXRlL2RhdGUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250ZW50IHtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYXJvdW5kO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgaGVpZ2h0OjEwMCU7XG59Il19 */"]
       });
       /*@__PURE__*/
@@ -942,9 +865,7 @@
             styleUrls: ['./date.component.css']
           }]
         }], function () {
-          return [{
-            type: _services_clock_service__WEBPACK_IMPORTED_MODULE_3__["ClockService"]
-          }];
+          return [];
         }, null);
       })();
       /***/
@@ -979,51 +900,15 @@
       /* harmony import */
 
 
-      var src_app_models_clock__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! src/app/models/clock */
-      "./src/app/models/clock.ts");
-      /* harmony import */
-
-
-      var src_app_services_clock_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      var src_app_services_clock_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! src/app/services/clock.service */
       "./src/app/services/clock.service.ts");
       /* harmony import */
 
 
-      var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! @angular/common */
       "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
-
-      function DigitalClockComponent_span_2_Template(rf, ctx) {
-        if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "0");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        }
-      }
-
-      function DigitalClockComponent_span_4_Template(rf, ctx) {
-        if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "0");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        }
-      }
-
-      function DigitalClockComponent_span_6_Template(rf, ctx) {
-        if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "0");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        }
-      }
 
       var DigitalClockComponent = /*#__PURE__*/function () {
         function DigitalClockComponent(clockService) {
@@ -1035,30 +920,12 @@
         _createClass(DigitalClockComponent, [{
           key: "ngOnInit",
           value: function ngOnInit() {
-            var _this7 = this;
+            var _this5 = this;
 
-            this.clock = new src_app_models_clock__WEBPACK_IMPORTED_MODULE_1__["Clock"]();
-            this.init();
+            this.date = Date.now();
             setInterval(function () {
-              return _this7.init();
+              return _this5.date = Date.now();
             }, 1000);
-          }
-        }, {
-          key: "init",
-          value: function init() {
-            var _this8 = this;
-
-            this.clockService.getClock().subscribe(function (res) {
-              _this8.clock.hours = res.hours;
-              _this8.clock.minutes = res.minutes;
-              _this8.clock.seconds = res.seconds;
-            }, function (err) {
-              _this8.clock.hours = 0;
-              _this8.clock.minutes = 0;
-              _this8.clock.seconds = 0;
-            }, function () {
-              return console.log('HTTP request completed.');
-            });
           }
         }]);
 
@@ -1066,32 +933,24 @@
       }();
 
       DigitalClockComponent.ɵfac = function DigitalClockComponent_Factory(t) {
-        return new (t || DigitalClockComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_services_clock_service__WEBPACK_IMPORTED_MODULE_2__["ClockService"]));
+        return new (t || DigitalClockComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_services_clock_service__WEBPACK_IMPORTED_MODULE_1__["ClockService"]));
       };
 
       DigitalClockComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: DigitalClockComponent,
         selectors: [["app-digital-clock"]],
-        decls: 8,
-        vars: 6,
-        consts: [[1, "content"], [4, "ngIf"]],
+        decls: 4,
+        vars: 4,
+        consts: [[1, "content"]],
         template: function DigitalClockComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, DigitalClockComponent_span_2_Template, 2, 0, "span", 1);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, DigitalClockComponent_span_4_Template, 2, 0, "span", 1);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, DigitalClockComponent_span_6_Template, 2, 0, "span", 1);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](3, "date");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1101,30 +960,10 @@
           if (rf & 2) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.clock.hours < 10);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", ctx.clock.hours, ":");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.clock.minutes < 10);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", ctx.clock.minutes, ":");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.clock.seconds < 10);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.clock.seconds);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](3, 1, ctx.date, "hh:mm:ss"));
           }
         },
-        directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"]],
+        pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["DatePipe"]],
         styles: [".content[_ngcontent-%COMP%] {\n    color: white;\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n    height:100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2lkZ2V0cy9kaWdpdGFsLWNsb2NrL2RpZ2l0YWwtY2xvY2suY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixhQUFhO0lBQ2IsNkJBQTZCO0lBQzdCLG1CQUFtQjtJQUNuQixXQUFXO0FBQ2YiLCJmaWxlIjoic3JjL2FwcC93aWRnZXRzL2RpZ2l0YWwtY2xvY2svZGlnaXRhbC1jbG9jay5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNvbnRlbnQge1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYXJvdW5kO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgaGVpZ2h0OjEwMCU7XG59Il19 */"]
       });
       /*@__PURE__*/
@@ -1139,7 +978,7 @@
           }]
         }], function () {
           return [{
-            type: src_app_services_clock_service__WEBPACK_IMPORTED_MODULE_2__["ClockService"]
+            type: src_app_services_clock_service__WEBPACK_IMPORTED_MODULE_1__["ClockService"]
           }];
         }, null);
       })();
@@ -1175,27 +1014,73 @@
       /* harmony import */
 
 
-      var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-      /*! rxjs/operators */
-      "./node_modules/rxjs/_esm2015/operators/index.js");
-      /* harmony import */
-
-
-      var src_app_models_weather__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      var src_app_models_weather__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
       /*! src/app/models/weather */
       "./src/app/models/weather.ts");
       /* harmony import */
 
 
-      var _services_weather_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      var _services_weather_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! ../../services/weather.service */
       "./src/app/services/weather.service.ts");
       /* harmony import */
 
 
-      var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/common */
       "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+      /* harmony import */
+
+
+      var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      /*! @angular/material/progress-spinner */
+      "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/progress-spinner.js");
+
+      function WeatherComponent_mat_progress_spinner_1_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "mat-progress-spinner", 3);
+        }
+      }
+
+      function WeatherComponent_div_2_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](3, "number");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "img", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h1");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+
+        if (rf & 2) {
+          var ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](3, 3, ctx_r1.weather.currenttemp, "1.0-0"), "\xB0C ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", ctx_r1.weather.iconurl, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r1.weather.city);
+        }
+      }
 
       var WeatherComponent = /*#__PURE__*/function () {
         function WeatherComponent(weatherService) {
@@ -1207,24 +1092,28 @@
         _createClass(WeatherComponent, [{
           key: "ngOnInit",
           value: function ngOnInit() {
-            var _this9 = this;
+            var _this6 = this;
 
-            this.weather = new src_app_models_weather__WEBPACK_IMPORTED_MODULE_2__["Weather"]();
+            this.loading = true;
+            this.weather = new src_app_models_weather__WEBPACK_IMPORTED_MODULE_1__["Weather"]();
             this.init();
             setInterval(function () {
-              return _this9.init();
+              return _this6.init();
             }, 600000);
           }
         }, {
           key: "init",
           value: function init() {
-            var _this10 = this;
+            var _this7 = this;
 
-            this.weatherService.getWeather().pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["map"])(function (weather) {
-              _this10.weather.currenttemp = weather.currenttemp;
-              _this10.weather.city = weather.city;
-              _this10.weather.iconurl = weather.iconurl;
-            })).subscribe();
+            this.weatherService.getWeather().then(function (weather) {
+              _this7.loading = true;
+              _this7.weather.currenttemp = weather.currenttemp;
+              _this7.weather.city = weather.city;
+              _this7.weather.iconurl = weather.iconurl;
+            }).then(function () {
+              return _this7.loading = false;
+            });
           }
         }]);
 
@@ -1232,58 +1121,39 @@
       }();
 
       WeatherComponent.ɵfac = function WeatherComponent_Factory(t) {
-        return new (t || WeatherComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_weather_service__WEBPACK_IMPORTED_MODULE_3__["WeatherService"]));
+        return new (t || WeatherComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_weather_service__WEBPACK_IMPORTED_MODULE_2__["WeatherService"]));
       };
 
       WeatherComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: WeatherComponent,
         selectors: [["app-weather"]],
-        decls: 8,
-        vars: 6,
-        consts: [[1, "content"], [1, "horizontal"], ["alt", "icone meteo actuelle", 3, "src"]],
+        decls: 3,
+        vars: 2,
+        consts: [[1, "content"], ["class", "spinner", "mode", "indeterminate", 4, "ngIf"], ["class", "horizontal", 4, "ngIf"], ["mode", "indeterminate", 1, "spinner"], [1, "horizontal"], ["alt", "icone meteo actuelle", 3, "src"]],
         template: function WeatherComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, WeatherComponent_mat_progress_spinner_1_Template, 1, 0, "mat-progress-spinner", 1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](4, "number");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 2);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h1");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, WeatherComponent_div_2_Template, 7, 6, "div", 2);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
           }
 
           if (rf & 2) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](4, 3, ctx.weather.currenttemp, "1.0-0"), "\xB0C ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.loading);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", ctx.weather.iconurl, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.weather.city);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.loading);
           }
         },
-        pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["DecimalPipe"]],
-        styles: [".content[_ngcontent-%COMP%] {\n    color: white;\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n    height:100%;\n}\n\n.horizontal[_ngcontent-%COMP%] {\n    display: inline-flex;\n    justify-content: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2lkZ2V0cy93ZWF0aGVyL3dlYXRoZXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixhQUFhO0lBQ2IsNkJBQTZCO0lBQzdCLG1CQUFtQjtJQUNuQixXQUFXO0FBQ2Y7O0FBRUE7SUFDSSxvQkFBb0I7SUFDcEIsdUJBQXVCO0FBQzNCIiwiZmlsZSI6InNyYy9hcHAvd2lkZ2V0cy93ZWF0aGVyL3dlYXRoZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb250ZW50IHtcbiAgICBjb2xvcjogd2hpdGU7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZDtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIGhlaWdodDoxMDAlO1xufVxuXG4uaG9yaXpvbnRhbCB7XG4gICAgZGlzcGxheTogaW5saW5lLWZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG59Il19 */"]
+        directives: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_4__["MatProgressSpinner"]],
+        pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["DecimalPipe"]],
+        styles: [".content[_ngcontent-%COMP%] {\n    color: white;\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n    height:100%;\n}\n\n.horizontal[_ngcontent-%COMP%] {\n    display: inline-flex;\n    justify-content: center;\n}\n\n.spinner[_ngcontent-%COMP%] {\n    stroke: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvd2lkZ2V0cy93ZWF0aGVyL3dlYXRoZXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFlBQVk7SUFDWixhQUFhO0lBQ2IsNkJBQTZCO0lBQzdCLG1CQUFtQjtJQUNuQixXQUFXO0FBQ2Y7O0FBRUE7SUFDSSxvQkFBb0I7SUFDcEIsdUJBQXVCO0FBQzNCOztBQUVBO0lBQ0ksYUFBYTtBQUNqQiIsImZpbGUiOiJzcmMvYXBwL3dpZGdldHMvd2VhdGhlci93ZWF0aGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGVudCB7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1hcm91bmQ7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBoZWlnaHQ6MTAwJTtcbn1cblxuLmhvcml6b250YWwge1xuICAgIGRpc3BsYXk6IGlubGluZS1mbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xufVxuXG4uc3Bpbm5lciB7XG4gICAgc3Ryb2tlOiB3aGl0ZTtcbn0iXX0= */"]
       });
       /*@__PURE__*/
 
@@ -1297,7 +1167,7 @@
           }]
         }], function () {
           return [{
-            type: _services_weather_service__WEBPACK_IMPORTED_MODULE_3__["WeatherService"]
+            type: _services_weather_service__WEBPACK_IMPORTED_MODULE_2__["WeatherService"]
           }];
         }, null);
       })();
