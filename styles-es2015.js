@@ -11,7 +11,7 @@
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nhtml, body { \n    height: 100%;\n}\nbody { \n    margin: 0;\n    font-family: Roboto, \"Helvetica Neue\", sans-serif;\n}", "",{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,8EAA8E;AAC9E;IACI,YAAY;AAChB;AACA;IACI,SAAS;IACT,iDAAiD;AACrD","file":"styles.css","sourcesContent":["/* You can add global styles to this file, and also import other style files */\nhtml, body { \n    height: 100%;\n}\nbody { \n    margin: 0;\n    font-family: Roboto, \"Helvetica Neue\", sans-serif;\n}"]}]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\nhtml,\r\nbody {\r\n  height: 100%;\r\n}\r\nbody {\r\n  margin: 0;\r\n  font-family: Roboto, \"Helvetica Neue\", sans-serif;\r\n}\r\n* {\r\n  color: white;\r\n}\r\n", "",{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,8EAA8E;AAC9E;;EAEE,YAAY;AACd;AAEA;EACE,SAAS;EACT,iDAAiD;AACnD;AAEA;EACE,YAAY;AACd","file":"styles.css","sourcesContent":["/* You can add global styles to this file, and also import other style files */\r\nhtml,\r\nbody {\r\n  height: 100%;\r\n}\r\n\r\nbody {\r\n  margin: 0;\r\n  font-family: Roboto, \"Helvetica Neue\", sans-serif;\r\n}\r\n\r\n* {\r\n  color: white;\r\n}\r\n"]}]);
 // Exports
 module.exports = exports;
 
@@ -439,7 +439,7 @@ module.exports = content.locals || {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/florianbeernaert/Documents/Travail/ISEN/AP5/ProjetMiroirConnecte/Smart_Mirror/front/src/styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! C:\Users\latou\Documents\Git\Smart_Mirror\front\src\styles.css */"./src/styles.css");
 
 
 /***/ })

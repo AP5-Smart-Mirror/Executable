@@ -3033,7 +3033,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/florianbeernaert/Documents/Travail/ISEN/AP5/ProjetMiroirConnecte/Smart_Mirror/front/src/polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! C:\Users\latou\Documents\Git\Smart_Mirror\front\src\polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })
