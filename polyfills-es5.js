@@ -466,7 +466,7 @@
     /***/
     function _(module, exports, __webpack_require__) {
       __webpack_require__(
-      /*! C:\Users\latou\Documents\Git\Smart_Mirror\front\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-polyfills.js */
+      /*! C:\Users\legra\Documents\Git-Repositories\Smart_Mirror\front\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-polyfills.js */
       "mRIq");
 
       __webpack_require__(
@@ -474,7 +474,7 @@
       "R0gw");
 
       module.exports = __webpack_require__(
-      /*! C:\Users\latou\Documents\Git\Smart_Mirror\front\src\polyfills.ts */
+      /*! C:\Users\legra\Documents\Git-Repositories\Smart_Mirror\front\src\polyfills.ts */
       "hN/g");
       /***/
     },

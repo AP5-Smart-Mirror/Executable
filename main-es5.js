@@ -17,7 +17,7 @@
     /***/
     function _(module, exports, __webpack_require__) {
       module.exports = __webpack_require__(
-      /*! C:\Users\latou\Documents\Git\Smart_Mirror\front\src\main.ts */
+      /*! C:\Users\legra\Documents\Git-Repositories\Smart_Mirror\front\src\main.ts */
       "zUnb");
       /***/
     },
@@ -121,7 +121,7 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r1.currentNews.title, " ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r1.newsText, " ");
         }
       }
 
@@ -130,6 +130,7 @@
           _classCallCheck(this, NewsComponent);
 
           this.newsService = newsService;
+          this.newsText = "";
         }
 
         _createClass(NewsComponent, [{
@@ -141,10 +142,7 @@
             this.init();
             setInterval(function () {
               return _this.init();
-            }, 600000);
-            setInterval(function () {
-              return _this.nextNews();
-            }, 10000);
+            }, 600000); // setInterval(() => this.nextNews(), 10000);
           }
         }, {
           key: "nextNews",
@@ -166,7 +164,9 @@
             this.newsService.getNews().then(function (news) {
               _this2.loading = true;
               news.forEach(function (element) {
-                _this2.news.push(element);
+                //this.news.push(element);
+                _this2.newsText += element.title;
+                _this2.newsText += " - ";
               });
               _this2.currentNews = _this2.news[0];
             }).then(function () {
@@ -187,7 +187,7 @@
         selectors: [["app-news"]],
         decls: 3,
         vars: 2,
-        consts: [[1, "content"], ["class", "spinner", "mode", "indeterminate", 4, "ngIf"], ["truespeed", "", "scrollamount", "1", "scrolldelay", "5", 4, "ngIf"], ["mode", "indeterminate", 1, "spinner"], ["truespeed", "", "scrollamount", "1", "scrolldelay", "5"]],
+        consts: [[1, "content"], ["class", "spinner", "mode", "indeterminate", 4, "ngIf"], ["truespeed", "", "scrollamount", "1", "scrolldelay", "10", 4, "ngIf"], ["mode", "indeterminate", 1, "spinner"], ["truespeed", "", "scrollamount", "1", "scrolldelay", "10"]],
         template: function NewsComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);

@@ -11,7 +11,7 @@
     /***/
     function _(module, exports, __webpack_require__) {
       module.exports = __webpack_require__(
-      /*! C:\Users\latou\Documents\Git\Smart_Mirror\front\src\styles.css */
+      /*! C:\Users\legra\Documents\Git-Repositories\Smart_Mirror\front\src\styles.css */
       "OmL/");
       /***/
     },
