@@ -168,7 +168,7 @@ UserComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\legra\Documents\Git-Repositories\Smart_Mirror\front\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! C:\Users\latou\Documents\Git\Smart_Mirror\front\src\main.ts */"zUnb");
 
 
 /***/ }),

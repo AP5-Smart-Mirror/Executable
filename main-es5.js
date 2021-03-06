@@ -350,7 +350,7 @@
     /***/
     function _(module, exports, __webpack_require__) {
       module.exports = __webpack_require__(
-      /*! C:\Users\legra\Documents\Git-Repositories\Smart_Mirror\front\src\main.ts */
+      /*! C:\Users\latou\Documents\Git\Smart_Mirror\front\src\main.ts */
       "zUnb");
       /***/
     },
